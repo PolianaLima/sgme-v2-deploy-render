@@ -23,7 +23,6 @@ public class UsuarioController {
         return usuarioUseCase.get(id);
     }
 
-
     @PostMapping("/usuarios")
     public UsuarioDTo createCliente(@RequestBody UsuarioDTo usuarioDTo){
        return usuarioUseCase.save(usuarioDTo);
