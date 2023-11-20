@@ -2,9 +2,8 @@ package com.br.sgme.sgme;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 
-@SpringBootApplication(exclude = {DataSourceAutoConfiguration.class})
+@SpringBootApplication
 public class SgmeApplication {
 
     public static void main(String[] args) {
@@ -12,3 +11,4 @@ public class SgmeApplication {
     }
 
 }
+
