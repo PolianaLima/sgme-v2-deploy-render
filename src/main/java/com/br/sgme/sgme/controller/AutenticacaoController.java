@@ -5,7 +5,7 @@ import com.br.sgme.sgme.ports.UsuarioUseCase;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 
-@CrossOrigin(origins = "http://localhost:3000/")
+
 @RestController
 @RequiredArgsConstructor
 public class AutenticacaoController {
