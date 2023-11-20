@@ -4,7 +4,7 @@ RUN apt-get update
 RUN apt-get install openjdk-17-jdk -y
 COPY . .
 
-RUN apt-get install maven -y
+FROM maven:3.8-openjdk-17
 RUN mvn clean install
 
 
