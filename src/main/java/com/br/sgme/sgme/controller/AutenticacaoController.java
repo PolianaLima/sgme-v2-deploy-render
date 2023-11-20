@@ -5,7 +5,7 @@ import com.br.sgme.sgme.ports.UsuarioUseCase;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 
-
+@CrossOrigin("https://sgme-front-end.onrender.com")
 @RestController
 @RequiredArgsConstructor
 public class AutenticacaoController {

@@ -1,17 +1,14 @@
 package com.br.sgme.sgme.controller;
 
 import com.br.sgme.sgme.controller.dto.ClienteDto;
-import com.br.sgme.sgme.model.Cliente;
 import com.br.sgme.sgme.ports.ClienteUseCase;
-import com.br.sgme.sgme.repository.ClienteRepository;
-import jakarta.persistence.Access;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-
+@CrossOrigin("https://sgme-front-end.onrender.com")
 @RestController
 @RequiredArgsConstructor
 public class ClienteController {

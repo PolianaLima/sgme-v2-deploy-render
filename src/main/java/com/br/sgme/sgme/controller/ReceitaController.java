@@ -11,6 +11,7 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+@CrossOrigin("https://sgme-front-end.onrender.com")
 @RestController
 @RequiredArgsConstructor
 public class ReceitaController {
